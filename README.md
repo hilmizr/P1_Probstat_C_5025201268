@@ -46,7 +46,7 @@ ggplot(aes(x = factor(x), y = prob, fill = Failures)) +
        x = "Kegagalan sebelum sukses pertama (x)",
        y = "Probabilitas") 
 ```
-![1d](\ss\soal1\1d.png)
+![1d](https://github.com/hilmizr/P1_Probstat_C_5025201268/blob/73bcc175f0cf7995f0082effbe5a0f83c013df54/ss/soal1/1d.png)
 
 - e. Nilai rataan (μ) dan varian (σ²) dari distribusi Geometrik
 ``` R
@@ -93,7 +93,7 @@ plot(success,dbinom(success,size=20,prob),
      xlab ='# Kesembuhan',
      lwd=3)
 ```
-![2b](\ss\soal2\2b.png)
+![2b](https://github.com/hilmizr/P1_Probstat_C_5025201268/blob/73bcc175f0cf7995f0082effbe5a0f83c013df54/ss/soal2/2b.png)
 
 - c. Nilai rataan (μ) dan varian (σ²) dari distribusi Binomial
 ``` R
@@ -133,7 +133,7 @@ success <- 1:365
 data = data.frame(y=c(dpois(6, lambda)), x=c(success))
 barplot(data$y, names.arg=data$x, ylab="Peluang Kelahiran", xlab="Hari", ylim=0:1)
 ```
-![3b](ss\soal3\3b.png)
+![3b](https://github.com/hilmizr/P1_Probstat_C_5025201268/blob/73bcc175f0cf7995f0082effbe5a0f83c013df54/ss/soal3/3b.png)
 
 - c. Bandingkan hasil poin a dan b , Apa kesimpulan yang bisa didapatkan
 
